@@ -4,9 +4,28 @@ This describes how to make your GNOME desktop look like macOS, with some resourc
 
 # GNOME Shell, GTK
 
-Install Save Desktop: https://flathub.org/en/apps/io.github.vikdevelop.SaveDesktop/install
+Run this in your terminal
 
-Then use it to setup from ./macOS.sd.zip.
+```
+# 1. Extract the master archive
+mkdir -p ~/GnomeRestore
+tar -xzvf ./desktop/desktop.tar.gz -C ~/GnomeRestore
+
+# 2. Put the asset and configuration directories back where they belong
+mkdir -p ~/.themes ~/.icons ~/.config ~/.local/share/gnome-shell
+cp -r ~/GnomeRestore/files/extensions ~/.local/share/gnome-shell/
+cp -r ~/GnomeRestore/files/gtk-3.0 ~/.config/
+cp -r ~/GnomeRestore/files/gtk-4.0 ~/.config/
+[ -d "~/GnomeRestore/files/.themes" ] && cp -r ~/GnomeRestore/files/.themes ~/
+[ -d "~/GnomeRestore/files/.icons" ] && cp -r ~/GnomeRestore/files/.icons ~/
+
+# 3. Restore the layout database and the extension variables
+dconf load / < ~/GnomeRestore/system-layout.dconf
+dconf load /org/gnome/shell/extensions/ < ~/GnomeRestore/extensions-settings.dconf
+
+# 4. Clean up staging environment
+rm -rf ~/GnomeRestore
+```
 
 # Applications
 

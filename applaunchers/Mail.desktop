@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Outlook
+Exec=flatpak run com.vivaldi.Vivaldi --profile-directory=Default --ignore-profile-directory-if-not-exists https://outlook.live.com/mail/
+Icon=mailer
+URL=https://outlook.live.com/mail/
+Comment=Open https://outlook.live.com/mail/ in a new tab in Google Chrome.
