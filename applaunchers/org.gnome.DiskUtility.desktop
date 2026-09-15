@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Disk Utility
+Comment=Manage Drives and Media
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=disk;drive;volume;harddisk;hdd;disc;cdrom;dvd;partition;iso;image;backup;restore;benchmark;raid;luks;encryption;S.M.A.R.T.;smart;
+Exec=gnome-disks
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=org.gnome.DiskUtility
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;X-GNOME-Utilities;Settings;HardwareSettings;
+DBusActivatable=true
+X-Purism-FormFactor=Workstation;Mobile;
+X-GNOME-UsesNotifications=true
+X-Ubuntu-Gettext-Domain=gnome-disk-utility

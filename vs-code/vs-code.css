@@ -1,0 +1,87 @@
+.titlebar-container {
+  padding-left: 84px;
+}
+.titlebar-container .window-controls-container {
+  width: 84px !important;
+  position: absolute !important;
+  left: 11px !important;
+  order: 0;
+  gap: 8px;
+  box-sizing: border-box;
+  height: 15px !important;
+  top: 10.5px !important;
+  display: grid;
+}
+
+.titlebar-container .window-controls-container > * {
+  width: 15px !important;
+  height: 15px !important;
+  background-position: center center;
+  color: transparent !important;
+  background-color: transparent !important;
+  stroke: transparent !important!;
+  border-radius: 999rem;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(3) {
+  order: 0 !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(1) {
+  order: 1 !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(2) {
+  order: 2 !important;
+}
+.window-appicon {
+  display: none;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(3) {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23cb4e43%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%23fe6254%22%20d%3D%22M8%2014.5a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+.titlebar-container .window-controls-container > *:nth-child(3):hover {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23cb4e43%22%20d%3D%22M8%2015.002a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%23fe6254%22%20d%3D%22M8%2014.488a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3Cpath%20d%3D%22M5.169%205.091a1%201%200%200%200%200%201.414L6.583%207.92%205.169%209.334a1%201%200%200%200%200%201.414%201%201%200%200%200%201.414%200l1.414-1.414%201.414%201.414a1%201%200%200%200%201.414%200%201%201%200%200%200%200-1.414L9.411%207.92l1.414-1.415a1%201%200%200%200%200-1.414%201%201%200%200%200-1.414%200L7.997%206.505%206.583%205.091a1%201%200%200%200-1.414%200%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+.titlebar-container .window-controls-container > *:nth-child(3):active {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23cb4e43%22%20d%3D%22M8%2015.002a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%20style%3D%22fill-rule%3Aevenodd%22%2F%3E%3Cpath%20fill%3D%22%23fe6254%22%20d%3D%22M8%2014.488a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%20style%3D%22fill%3A%23cb4e43%3Bfill-opacity%3A1%3Bfill-rule%3Aevenodd%22%2F%3E%3Cpath%20d%3D%22M5.169%205.091a1%201%200%200%200%200%201.414L6.583%207.92%205.169%209.334a1%201%200%200%200%200%201.414%201%201%200%200%200%201.414%200l1.414-1.414%201.414%201.414a1%201%200%200%200%201.414%200%201%201%200%200%200%200-1.414L9.411%207.92l1.414-1.415a1%201%200%200%200%200-1.414%201%201%200%200%200-1.414%200L7.997%206.505%206.583%205.091a1%201%200%200%200-1.414%200%22%20opacity%3D%22.5%22%20style%3D%22stroke-width%3A3.7795%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(1):hover {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20transform%3D%22translate(-266%20-584.52)scale(3.7795)%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%23caa124%22%20d%3D%22M72.496%20158.625a1.852%201.852%200%201%200%200-3.704%201.852%201.852%200%200%200%200%203.704%22%2F%3E%3Cpath%20fill%3D%22%23fdc92d%22%20d%3D%22M72.496%20158.493a1.72%201.72%200%201%200%200-3.44%201.72%201.72%200%200%200%200%203.44%22%2F%3E%3C%2Fg%3E%3Crect%20width%3D%222.117%22%20height%3D%22.529%22%20x%3D%2271.438%22%20y%3D%22156.51%22%20opacity%3D%22.5%22%20ry%3D%22.265%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(1):active {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23caa124%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%20style%3D%22fill-rule%3Aevenodd%22%2F%3E%3Crect%20width%3D%228%22%20height%3D%222%22%20x%3D%223.998%22%20y%3D%226.992%22%20opacity%3D%22.5%22%20ry%3D%221%22%20style%3D%22stroke-width%3A3.7795%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(2) {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%2328d33f%22%20d%3D%22M8%2014.5a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(2):hover {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8.002%2014.999a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%2328d33f%22%20d%3D%22M8.002%2014.507a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22m6.41%204.98%204.587%204.585V5.98c0-.415-.585-1-1-1zM4.998%206.392V9.98c0%20.416.584%201%201%201h3.586z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(2):active {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%2320a932%22%20fill-rule%3D%22evenodd%22%20d%3D%22M8.002%2014.999a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20d%3D%22m6.41%204.98%204.587%204.585V5.98c0-.415-.585-1-1-1zM4.998%206.392V9.98c0%20.416.584%201%201%201h3.586z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.maximized
+  .titlebar-container
+  .window-controls-container
+  > *:nth-child(2):hover {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8%2014.999a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%2328d33f%22%20d%3D%22M8%2014.507a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M8.025%203.414V7c0%20.416.585%201%201%201h3.586zM3.39%208l4.586%204.586V9c0-.416-.585-1-1-1z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.maximized
+  .titlebar-container
+  .window-controls-container
+  > *:nth-child(2):active {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%20style%3D%22fill-rule%3Aevenodd%22%2F%3E%3Cpath%20d%3D%22M8.025%203.414V7c0%20.416.585%201%201%201h3.586zM3.39%208l4.586%204.586V9c0-.416-.585-1-1-1z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.titlebar-container .window-controls-container > *:nth-child(1) {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%23caa124%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%23fdc92d%22%20d%3D%22M8%2014.5a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
+}
