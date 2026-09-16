@@ -37,6 +37,9 @@
 .window-appicon {
   display: none;
 }
+.titlebar-right {
+  padding-right: 0.25rem;
+}
 
 .titlebar-container .window-controls-container > *:nth-child(3) {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23cb4e43%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%23fe6254%22%20d%3D%22M8%2014.5a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fsvg%3E") !important;

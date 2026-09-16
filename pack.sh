@@ -109,4 +109,4 @@ echo "-> Packaging archive into final tarball..."
 tar -czf ~/desktop.tar.gz -C ~/GnomeBackup .
 rm -rf ~/GnomeBackup
 echo "=========================================================================="
-echo "SUCCESS: Standalone archive generated at: ~/complete-gnome-backup.tar.gz"
+echo "SUCCESS: Standalone archive generated at: ~/desktop.tar.gz"
