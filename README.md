@@ -4,7 +4,7 @@ This describes how to make your GNOME desktop look like macOS, with some resourc
 
 # GNOME Shell, GTK
 
-Run ./install-desktop.sh in your terminal. Warning, it will log you out of GNOME.
+Run ./install-desktop.sh in your terminal. Warning, it will log you out of GNOME. If it doesn't apply to some apps, copy the contents of ~/.themes/MacTahoe-Dark-Solid/gtk-4.0 (entire directory contents) into ~/.config/gtk-4.0.
 
 # Applications
 
