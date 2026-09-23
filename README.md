@@ -24,10 +24,22 @@ gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>spac
 gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
 ```
 
+# Firefox
+
+Enable CSS customizations, then use ./firefox/theme.css as your userChrome.css. Note, unlike some themes, this does not make Firefox look like Safari; rather, it makes it look like the macOS Firefox (mainly styles the window buttons).
+Trying to make it look like Safari would be impossible to do correctly, and it's anyway not the macOS experience; on real macOS, Firefox still looks like Firefox.
+
+# Email Clients
+
+This doesn't include a Thunderbird theme; theming that is harder than Firefox. If you want native macOS look, use a GTK-based email client: **Convey**, **Hylki**, or **Postcard** for example. (note: I am not affiliated with those projects; they're just ones I happened to find that respect the GTK theme)
+
 # Vivaldi
 
-Copy ./vivaldi to somewhere in your home directory and
-point Vivaldi Custom CSS to there.
+Copy ./vivaldi to somewhere in your home directory and point Vivaldi Custom CSS to there. Note, this does not make Vivaldi look like Safari; it makes it look like the macOS Vivaldi.
+
+# Chrome, other Chromium-based browsers
+
+Unfortunately, Vivaldi is the only Chromium-based browser that supports this kind of theming.
 
 # VS Code CSS
 

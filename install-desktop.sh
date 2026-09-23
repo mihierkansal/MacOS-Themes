@@ -37,5 +37,7 @@ cp ~/GnomeRestore/configs/gtk-4.0/* ~/.config/gtk-4.0/ 2>/dev/null
 # 9. Clean up workspace environments
 rm -rf ~/GnomeRestore
 
+gsettings set org.gnome.mutter overlay-key ''
+
 # 10. Reload GNOME Shell window components
 killall -3 gnome-shell 2>/dev/null || echo "Please log out and log back in to finalize."
