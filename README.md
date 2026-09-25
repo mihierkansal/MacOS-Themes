@@ -14,15 +14,11 @@ You can get them from ./wallpaper.
 
 Copy everything from ./applaunchers to ~/.local/share/applications.
 
-# Super + Space to open Applications + macOS window buttons
+# Spotlight search
 
-```
-gsettings set org.gnome.desktop.wm.keybindings switch-input-source "[]"
+By default, Spotlight opens when you press Ctrl + Super + Space, to avoid conflicting with other shortcuts.
 
-gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>space']"
-
-gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
-```
+But, if you want Super + Space (since, on macOS, Command is equivalent to Super, and Spotlight opens on Command + Space), you can run `./spotlight-key.sh`.
 
 # Firefox
 
