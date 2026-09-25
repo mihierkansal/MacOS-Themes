@@ -2,7 +2,33 @@
 
 This describes how to make your GNOME desktop look like macOS, with some resources included.
 
-# GNOME Shell, GTK
+# What it looks like
+
+## Desktop
+
+<img src="screenshot/desktop.png" style="border-radius: 6px"/>
+
+## Spotlight
+
+<img src="screenshot/spotlight.png" style="border-radius: 6px"/>
+
+## Terminal
+
+<img src="screenshot/terminal.png" style="border-radius: 6px"/>
+
+## Vivaldi
+
+<img src="screenshot/vivaldi.png" style="border-radius: 6px"/>
+
+## Firefox
+
+<img src="screenshot/firefox.png" style="border-radius: 6px"/>
+
+## VS Code
+
+<img src="screenshot/vscode.png" style="border-radius: 6px"/>
+
+# Main Install (GNOME Shell, GTK)
 
 Run ./install-desktop.sh in your terminal. Warning, it will log you out of GNOME. If it doesn't apply to some apps, copy the contents of ~/.themes/MacTahoe-Dark-Solid/gtk-4.0 (entire directory contents) into ~/.config/gtk-4.0.
 
@@ -27,7 +53,7 @@ Trying to make it look like Safari would be impossible to do correctly, and it's
 
 # Email Clients
 
-This doesn't include a Thunderbird theme; theming that is harder than Firefox. If you want native macOS look, use a GTK-based email client: **Convey**, **Hylki**, or **Postcard** for example. (note: I am not affiliated with those projects; they're just ones I happened to find that respect the GTK theme)
+This doesn't include a Thunderbird theme; theming that is harder than Firefox. If you want native macOS look, use a GTK-based email client: **Convey**, **Hylki**, or **Postcard** for example. (note: I am not affiliated with those projects; they're just ones I happened to find that follow the set GTK theme)
 
 # Vivaldi
 
@@ -50,9 +76,9 @@ Get an extension that lets you do custom CSS, copy ./vs-code.css to somewhere in
 "window.menuBarVisibility": "toggle",
 ```
 
-# MEGA
+# MEGA Cloud Sync
 
-MEGA sync will not work by default if you have system tray disabled; either enable it or use mega-cmd.
+MEGA sync will not work by default if you have system tray disabled; either enable the system tray in Extension Manager or use mega-cmd instead of MEGASync Desktop.
 
 # Updating/Contributing
 
