@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Mail
+GenericName=Mail Client
+Comment=Read and send your email
+Exec=/usr/bin/flatpak run --branch=master --arch=x86_64 --command=postcard --file-forwarding in.gxanshu.postcard @@u %u @@
+Icon=email
+Terminal=false
+Type=Application
+Categories=Network;Email;
+Keywords=GTK;Email;E-mail;Mail;IMAP;SMTP;Inbox;
+MimeType=x-scheme-handler/mailto;
+StartupNotify=true
+DBusActivatable=true
+X-Flatpak=in.gxanshu.postcard
